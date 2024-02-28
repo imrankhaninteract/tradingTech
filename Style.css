@@ -3,8 +3,15 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+@font-face {
+    font-family: futura;
+    src: url(Futura.ttf);
+}
+
+
+
 #banner{
-    background: linear-gradient(rgba(36, 138, 99, 0.1),#00000099),url(/Images/banner.PNG);
+    background: linear-gradient(rgba(36, 138, 99, 0.1),#00000099),url(https://images.pexels.com/photos/1737957/pexels-photo-1737957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover ;
     background-position:center ;
     height: 100vh;
@@ -14,21 +21,17 @@
 
 .logo{
     width: 180px;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 5px;
-    border-radius: 5px;
+    }
 
-}
 .banner-text{
     text-align: center;
     color: #fff;
     padding-top: 60px;
 }
 .banner-text h1{
-    font-size: 100px; 
-    font-family: 'Kaushan Script', cursive;
-    color: #f30606;
+    font-size: 90px; 
+    font-family: futura;
+    color: #d10000;
 }
 .banner-text p{
     font-size: 20px; 
@@ -413,4 +416,14 @@ hr{
 }
 .footer-img{
     top: 25%;
+}
+@media screen and (max-width: 770px) {
+    .banner-text h1 {
+        font-size: 44px;
+        padding-top: 30px;
+    }
+    .logo {
+        width: 120px;
+        margin: 10px;
+    }
 }

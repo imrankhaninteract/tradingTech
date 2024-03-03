@@ -35,7 +35,7 @@
     </nav>
 </div>
 <div id="menuBtn">
-    <img src="Images/menu.png" id="menu">
+    <i class="fas fa-times" id="menu"></i>
 </div>
 <!-- Features -->
 <section id="feature">
@@ -193,10 +193,10 @@
     sideNav.style.right="-250px";
     menuBtn.onclick=function(){
         if(sideNav.style.right=="-250px"){sideNav.style.right="0px";
-    menu.src="images/close.png"
+        menu.className = "fas fa-times";
     }
         else {sideNav.style.right= "-250px";
-        menu.src="images/menu.png"
+        menu.className = "fas fa-bars";
             
         }
         

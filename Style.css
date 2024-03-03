@@ -15,12 +15,12 @@
     background-size: cover ;
     background-position:center ;
     height: 100vh;
-    
-
-}
+    }
 
 .logo{
     width: 180px;
+    position: relative;
+    margin: 5px;
     }
 
 .banner-text{

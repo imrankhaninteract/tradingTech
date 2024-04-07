@@ -291,6 +291,58 @@ hr{
     bottom: 25% !important;
 }
 }
+/* team Mambers --*/
+
+#teamMambers{
+    width: 100%;
+    padding: 70px 0;
+}
+.teamMambers-row{
+    width: 80%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between ;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+.teamMambers-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #025977;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.teamMambers-col p{
+    font-size: 14px;
+}
+.mamber{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.mamber img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.mamber-info .fa-brands{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+.mamber-info small{
+    color: #025977;
+}
+.teamMambers-col:hover{
+    transform: translateY(-7px);
+}
+@media screen and (max-width:770px){
+    .teamMambers-col{
+        flex-basis: 100%;
+    }
+}
 /* -- testimonial--*/
 #testimonial{
     width: 100%;

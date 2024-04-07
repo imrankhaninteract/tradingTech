@@ -35,7 +35,7 @@
     </nav>
 </div>
 <div id="menuBtn">
-    <i class="fas fa-bars" id="menu"></i>
+    <img src="Images/menu.png" id="menu">
 </div>
 <!-- Features -->
 <section id="feature">
@@ -88,25 +88,91 @@
      </div>
      <div class="service-box">
         <div class="single-service">
-            <img src="Images/pic-1.jpg">
+            <img src="https://images.pexels.com/photos/7567556/pexels-photo-7567556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
             <div class="overlay"><div class="service-desc"><h3>International Trade</h3>
                 <hr><p>Trading Tech masters international trade complexities, ensuring seamless transactions and unlocking global opportunities. Trust us for success!</p></div></div>
         </div>
-        <div class="single-service"><img src="Images/pic-2.jpg">
+        <div class="single-service"><img src="https://images.pexels.com/photos/4101137/pexels-photo-4101137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
             <div class="overlay"></div>
             <div class="service-desc"><h3>Foreign Consultancy</h3>
             <hr><p>Trading Tech's foreign consultancy provides expert guidance for global expansion. Navigate regulations, seize opportunities – let us guide your success!</p></div>
         </div>
-        <div class="single-service"><img src="Images/pic-3.jpg">
+        <div class="single-service"><img src="https://images.pexels.com/photos/13451105/pexels-photo-13451105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
             <div class="overlay"></div>
             <div class="service-desc"><h3>It Solution</h3>
                 <hr><p>Trading Tech offers cutting-edge IT solutions tailored to your business needs. From software development to cybersecurity, trust us for innovation and reliability.</p></div>
            
         </div>
-        <div class="single-service"><img src="Images/pic-4.jpg">
+        <div class="single-service"><img src="https://images.pexels.com/photos/4569879/pexels-photo-4569879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
             <div class="overlay"></div><div class="service-desc"><h3>Real Estate</h3>
                 <hr><p>Explore your ideal property with Trading Tech's extensive real estate knowledge. Whether it's a home or commercial space, count on us to turn your property dreams into reality!</p></div>
         </div>
+       
+</section>
+ <!-- Team Mambers-->
+ <section id="teamMambers">
+    <div class="title-text">
+        <p>Board of Executives</p> 
+        <h1>Leadership, Innovation, Excellence.</h1>
+     </div>
+     <div class="teamMambers-row">
+        <div class="teamMambers-col">
+            <div class="mamber">
+                <img src="Images/img-1.jpg" alt="">
+                <div class="mamber-info">
+                    <h4> Syed Nasif Rahman  </h4>
+                    <small>Cheif Executive Officer</small>
+                </div>
+            
+            </div>
+           <p> CEO at Tradingtech, blending strategic leadership with ethical governance to steer the company towards sustainable growth and global success. Passionate about fostering a culture of integrity and excellence in all aspects of operations.</p> 
+        </div>
+        <div class="teamMambers-col">
+            <div class="mamber">
+                <img src="Images/img-2.jpg" alt="">
+                <div class="mamber-info">
+                    <h4>Faizul Islam Zishan</h4>
+                    <small>IT Director</small>
+                </div>
+            
+            </div>
+            <p>IT Director at Tradingtech, architecting robust technology infrastructure to support cutting-edge trading platforms and ensure seamless operations. Committed to leveraging technology for strategic advantage and driving efficiency across the organization.</p>
+        </div>
+        <div class="teamMambers-col">
+            <div class="mamber">
+                <img src="Images/img-3.jpg" alt="">
+                <div class="mamber-info">
+                    <h4>Mosarof Hossain</h4>
+                    <small>Marketing Manager</small>
+                </div>
+            
+            </div>
+            <p> Marketing Manager at Tradingtech, orchestrating dynamic campaigns to amplify brand visibility and propel market engagement. Dedicated to crafting innovative strategies that resonate with clients and drive business growth.</p>
+        </div>
+        <div class="teamMambers-col">
+            <div class="mamber">
+                <img src="Images/img-3.jpg" alt="">
+                <div class="mamber-info">
+                    <h4>Ismail Jim</h4>
+                    <small>IT Architect</small>
+                </div>
+            
+            </div>
+            <p>  IT Architect at Tradingtech, designing scalable and secure technology solutions to meet the dynamic needs of the trading industry. Leveraging expertise to streamline operations and optimize performance, ensuring Tradingtech remains at the forefront of innovation.</p>
+        </div>
+        <div class="teamMambers-col">
+            <div class="mamber">
+                <img src="Images/img-3.jpg" alt="">
+                <div class="mamber-info">
+                    <h4>Rifat Zaman</h4>
+                    <small>Marketing Manager</small>
+                </div>
+            
+            </div>
+            <p>  IT Consultant at Tradingtech, providing expert guidance and tailored solutions to optimize IT infrastructure and drive technological efficiency. Leveraging extensive industry knowledge to navigate complexities and empower clients for sustainable success.</p>
+        </div>
+
+     </div>
 </section>
 <!-- Teatimonial -->
 <section id="testimonial">
@@ -154,7 +220,7 @@
 <!-- footer -->
 
 <section id="footer">
-    <img src="Images/footer-img.png" class="footer-img">
+   
     <div class="title-text">
         <p>CONTACT</p> 
         <h1>Visit Us Today</h1>
@@ -169,7 +235,7 @@
             <h1>Get In Touch</h1>
             <p>D-179, Chayabithi, Joydebpur,Gazipur<i class="fa-solid fa-location-dot"></i></p>
             <p>tradingtechlimited.com<i class="fa-solid fa-paper-plane "></i></p>
-            <p>880 167299879<i class="fa-solid fa-phone"></i>
+            <p>880 1972052904<i class="fa-solid fa-phone"></i>
         </div>
      </div>
      <div class="social-links">
@@ -193,10 +259,10 @@
     sideNav.style.right="-250px";
     menuBtn.onclick=function(){
         if(sideNav.style.right=="-250px"){sideNav.style.right="0px";
-        menu.className = "fas fa-times";
+    menu.src="Images/close.png"
     }
         else {sideNav.style.right= "-250px";
-        menu.className = "fas fa-bars";
+        menu.src="Images/menu.png"
             
         }
         
